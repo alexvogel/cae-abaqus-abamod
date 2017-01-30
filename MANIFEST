@@ -1,0 +1,13 @@
+Changes
+Makefile.PL
+MANIFEST
+META.yml
+README
+t/testFilter.t
+t/testImport.t
+t/testTheRest.t
+t/testPrint.t
+lib/CAE/Abaqus/Abamod.pm
+lib/CAE/Abaqus/Abamod/Entity.pm
+spl/abamodel.inc
+LICENSE

@@ -1,0 +1,31 @@
+--- #YAML:1.3
+name: CAE-Abaqus-Abamod
+abstract: basic access to abaqus models
+version: [% version %]
+author:
+  - Alexander Vogel <avoge@cpan.org>
+license: perl
+distribution_type: module
+requires:
+  perl: 5.005
+build_requires:
+  Test: 0
+resources:
+  license: http://dev.perl.org/licenses/
+keywords:
+  - CA
+  - CAE
+  - FEA
+  - FEM
+  - perl
+  - abaqus
+  - Finite-Elements
+  - CAE-Automation
+  - CAE-Automatisierung
+provides:
+  CAE::Abaqus::Abamod:
+    file: lib/CAE/Abaqus/Abamod.pm
+    version: [% version %]
+  CAE::Abaqus::Abamod::Entity:
+    file: lib/CAE/Abaqus/Abamod/Entity.pm
+    version: [% version %]
