@@ -663,7 +663,7 @@ CAE::Abaqus::Abamod - basic access to abaqus models
 
 =head1 DESCRIPTION
 
-import a nastran model from files, filter content, extract data, overwrite data, write content to file.
+import a abaqus model from files, filter content, extract data, overwrite data, write content to file.
 
 =head1 API
 
@@ -671,12 +671,12 @@ import a nastran model from files, filter content, extract data, overwrite data,
 
 creates and returns a new and empty nastran model
 
-    # create a new Nasmod
-    my $model = CAE::Nastran::Nasmod->new();
+    # create a new Abamod
+    my $model = CAE::Abaqus::Abamod->new();
 
 =head2 importBulk()
 
-imports a Nastran model from file. it only imports nastran bulk data. no sanity checks will be performed - duplicate ids or the like are possible.
+imports a Abaqus model from file.
 
     # define options and filter
     my %OPTIONS = (
